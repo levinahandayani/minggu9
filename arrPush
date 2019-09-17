@@ -1,0 +1,10 @@
+const buah = ['jeruk','mangga','duren','kelapa'], tambahan = ['apel','lemon', {obj: 'lengkeng'}]
+const arrayPushBuah = async () =>{
+    await tambahan.map(res => buah.push(res))
+    console.log(buah);
+}
+
+arrayPushBuah();
+/*NOTE:
+array map adalah fungsi perulangan array seperti for in dan foreach
+*/
