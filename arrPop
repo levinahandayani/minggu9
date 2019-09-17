@@ -1,0 +1,12 @@
+const buah = ['jeruk','mangga','duren','kelapa'], tambahan = ['apel','lemon', {obj: 'lengkeng'}]
+const arrayPushBuah = async () =>{
+    await tambahan.pop();
+    await tambahan.map(res => buah.push(res))
+    console.log(buah);
+}
+
+arrayPushBuah();
+
+/*NOTE:
+array pop adalah fungsi array untuk menghapus index/element terakhir dari sebuah array
+*/
